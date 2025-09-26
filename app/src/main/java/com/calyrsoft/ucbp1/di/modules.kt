@@ -45,7 +45,7 @@ val appModule = module {
     single { RealTimeRemoteDataSource() }
 
 // Repository
-    single<IDollarRepository> { DollarRepository(get()) }
+    single<IDollarRepository> { DollarRepository(get(), get()) }
 
 // Use case
     factory { FetchDollarUseCase(get()) }

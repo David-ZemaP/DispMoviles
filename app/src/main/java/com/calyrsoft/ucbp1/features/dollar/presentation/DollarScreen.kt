@@ -42,7 +42,7 @@ fun DollarScreen(viewModelDollar: DollarViewModel = koinViewModel()) {
                 paralelo = s.data.dollarParallel,
                 usdt = s.data.dollarUsdt,
                 usdc = s.data.dollarUsdc,
-                updatedAt = s.data.updatedAt
+                updatedAt = s.data.timestamp
             )
         }
     }

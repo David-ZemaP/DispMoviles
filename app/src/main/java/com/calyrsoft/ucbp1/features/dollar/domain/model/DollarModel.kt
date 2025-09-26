@@ -5,5 +5,5 @@ data class DollarModel(
     var dollarParallel: String? = null,
     val dollarUsdt: String? = null,     // NUEVO
     val dollarUsdc: String? = null,     // NUEVO
-    val updatedAt: Long = System.currentTimeMillis()
+    val timestamp: Long = System.currentTimeMillis(),
 )
